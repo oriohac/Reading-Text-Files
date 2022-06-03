@@ -6,9 +6,9 @@
 
 def read_file_content(filename):
     # [assignment] Add your code here 
-    with open("./story.txt","r") as readfile:
-        readfile = readfile.read()
-    return readfile
+    with open(filename) as readfile:
+        filename = readfile.read()
+    return filename
 read_file_content("./story.txt")
 
 
